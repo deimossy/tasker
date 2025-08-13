@@ -1,0 +1,44 @@
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Coverage output
+*.out
+
+# Go workspace file
+go.work
+
+### VS Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History
+.history/
+
+### JetBrains IDE (GoLand, IntelliJ, etc.) ###
+.idea/
+
+# Build output
+out/
+cmake-build-*/
+
+# User-specific files
+*.iws
+*.iml
+*.ipr
+
+### Other ###
+# OS generated files
+.DS_Store
+Thumbs.db
